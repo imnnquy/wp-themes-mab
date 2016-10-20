@@ -1,15 +1,9 @@
-### V1.0.35
-	- Resolved #57 - Removed link attribution. (https://github.com/MachoThemes/illdy/issues/57)
-
-### V1.0.34
-	- Resolved #56 - Services and Testimonials Sections are missing the Title field. (https://github.com/MachoThemes/illdy/issues/56)
-
 ### V1.0.33
-	- Resolved #51 - Uncheck dedicated page header picture by default.( https://github.com/MachoThemes/illdy/issues/51 )
-	- Resolved #52 - Change Parallax header background position from cover to contain.( https://github.com/MachoThemes/illdy/issues/52 )
-	- Resolved #53 - Style contact form 7 outside of homepage.( https://github.com/MachoThemes/illdy/issues/53 )
-	- Resolved #54 - Random number in sections.( https://github.com/MachoThemes/illdy/issues/54 )
-	- Resolved #55 - Projects cannot be created.( https://github.com/MachoThemes/illdy/issues/55 )
+	- Resolved #51 - Uncheck dedicated page header picture by default.
+	- Resolved #52 - Change Parallax header background position from cover to contain.
+	- Resolved #53 - Style contact form 7 outside of homepage.
+	- Resolved #54 - Random number in sections.
+	- Resolved #55 - Projects cannot be created.
 	
 ### V1.0.32
     - we had two panels for the counter section and we made them into a single one.

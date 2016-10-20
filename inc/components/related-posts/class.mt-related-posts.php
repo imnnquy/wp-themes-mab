@@ -114,7 +114,7 @@ if( !class_exists( 'Illdy_Related_Posts_Output' ) ) {
 					$output .= '<div class="row">';
 						$output .= '<div class="col-sm-12">';
 							$output .= '<div class="related-article-title">';
-								$output .= __( 'Related Articles', 'illdy' );
+								$output .= __( 'Dans le même catégorie', 'illdy' );
 							$output .= '</div><!--/.related-article-title-->';
 						$output .= '</div><!--/.col-sm-12-->';
 

@@ -43,7 +43,7 @@ $wp_customize->add_setting( $prefix . '_services_general_title', array(
 $wp_customize->add_control( $prefix . '_services_general_title', array(
 		'label'       => __( 'Title', 'illdy' ),
 		'description' => __( 'Add the title for this section.', 'illdy' ),
-		'section'     => $panel_id,
+		'section'     => $prefix . '_services_general',
 		'priority'    => 2,
 	) );
 

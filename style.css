@@ -4,7 +4,7 @@ Theme URI: http://colorlib.com/wp/themes/illdy/
 Author: Colorlib
 Author URI: http://colorlib.com
 Description: Illdy is a stunning multipurpose WordPress theme built based on Bootstrap frontend framework making it fully responsive and mobile friendly. This theme is well suited for business, landing page, portfolio or any other creative websites. This leaves heavy lifting to WordPress Customizer therefore you can create your website on live preview mode. Which means that you can see changes happen on your website in real time as you make them
-Version: 1.0.35
+Version: 1.0.33
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, e-commerce, portfolio
@@ -14,90 +14,3 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
-nav.header-navigation ul {
-    background: rgb(132, 133, 133);
-}
-
-.open-responsive-menu .fa {
-    color: rgb(132, 133, 133);
-}
-
-#newsletter-subscribe {
-    width: 100%;
-    background: #fff;
-    padding: 80px 0 100px 0;
-    text-align: center;
-}
-
-.input-email-newsletter {
-    width: 300px;
-    display: inline;
-}
-
-.btn {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-}
-
-.btn-default {
-    color: #333;
-    background-color: #E950A6;
-    border-color: #ccc;
-}
-
-.btn-danger,
-.btn-default,
-.btn-info,
-.btn-primary,
-.btn-success,
-.btn-warning {
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
-}
-
-.btn-default {
-    text-shadow: 0 1px 0 #E950A6;
-    background-image: -webkit-linear-gradient(top, #E950A6 0, #9D045A 100%);
-    background-image: -o-linear-gradient(top, #E950A6 0, #9D045A 100%);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#E950A6), to(#9D045A));
-    background-image: linear-gradient(to bottom, #E950A6 0, #9D045A 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#E950A6', endColorstr='#ffe0e0e0', GradientType=0);
-    filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
-    background-repeat: repeat-x;
-    border-color: #ccc;
-}
-
-.btn-default:focus,
-.btn-default:hover {
-    background-color: #9D045A;
-    background-position: 0 -15px;
-}
-
-.btn-default.active,
-.btn-default:active {
-    background-color: #E950A6;
-    border-color: #dbdbdb;
-}
-
-.button-tele-app {
-    color: black;
-    font-size: xx-large;
-    font-weight: bold;
-}

@@ -17,5 +17,5 @@
 	<div class="blog-post-entry">
 		<?php the_excerpt(); ?>
 	</div><!--/.blog-post-entry-->
-	<a href="<?php the_permalink(); ?>" title="<?php _e( 'Read more', 'illdy' ); ?>" class="blog-post-button"><?php _e( 'Read more', 'illdy' ); ?></a>
+	<a href="<?php the_permalink(); ?>" title="<?php _e( 'Lire la suite', 'illdy' ); ?>" class="blog-post-button"><?php _e( 'Lire la suite', 'illdy' ); ?></a>
 </article><!--/#post-<?php the_ID(); ?>.blog-post-->

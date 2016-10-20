@@ -43,6 +43,7 @@ input {
 
 .front-page-section {
 	width: 100%;
+    padding: 65px 0 85px 0;
 }
 
 .front-page-section .section-header {
@@ -56,10 +57,11 @@ input {
 	font-size: 30px;
 	color: #000;
 	text-transform: uppercase;
+    text-align: center;
 }
 
 .front-page-section .section-header p {
-	margin-bottom: 0;
+	margin-bottom: 7px;
 	line-height: 1.6;
 	font-size: 15px;
 	color: #888;
@@ -2436,5 +2438,72 @@ input[type=submit] {
 	display: inline-block;
 	float: none;
 }
+
+#artisans , #avantages {
+    background-color: #f6f6f6;
+}
+
+#tarif {
+    width: 100%;
+    padding: 55px 0;
+    text-align: center;
+    position: relative;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+#tarif .number {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    line-height: 0.9;
+    font-weight: 900;
+    font-size: 50px;
+    color: #fff;
+}
+
+#tarif .tarif-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#tarif .col-sm-4 {
+    border-right: 1px solid #fff;
+}
+
+#tarif .col-sm-4:last-child {
+    border-right: none;
+}
+
+#tarif .description {
+    width: 100%;
+    line-height: 2.25;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+}
+
+#abonnement .item .fa,
+#avantages .item .fa,
+#le-concept .item .fa {
+    margin-right: 13px;
+    margin-bottom: 10px;
+    color: rgb(241, 210, 4);
+    font-size: 25px;
+}
+
+#le-concept .description {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 
 /*# sourceMappingURL=main.css.map */

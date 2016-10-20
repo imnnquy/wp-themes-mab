@@ -6,51 +6,22 @@
  * @subpackage illdy
  */
 ?>
-    <?php
+<?php
 
 if ( current_user_can( 'edit_theme_options' ) ) {
+	$display_copyright = get_theme_mod( 'illdy_general_footer_display_copyright', 1 );
 	$footer_copyright  = get_theme_mod( 'illdy_footer_copyright', __( '&copy; Copyright 2016. All Rights Reserved.', 'illdy' ) );
 	$img_footer_logo   = get_theme_mod( 'illdy_img_footer_logo', esc_url( get_template_directory_uri() . '/layout/images/footer-logo.png' ) );
 } else {
+	$display_copyright = get_theme_mod( 'illdy_general_footer_display_copyright' );
 	$footer_copyright  = get_theme_mod( 'illdy_footer_copyright' );
 	$img_footer_logo   = get_theme_mod( 'illdy_img_footer_logo' );
 }
 ?>
-        <section id="newsletter-subscribe" class="front-page-section">
-            <div class="section-header">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h3>Newsletter</h3>
-                        </div>
-                        <!--/.col-sm-12-->
-                        <div class="col-sm-10 col-sm-offset-1">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        </div>
-                        <!--/.col-sm-10.col-sm-offset-1-->
-                    </div>
-                    <!--/.row-->
-                </div>
-                <!--/.container-->
-            </div>
-            <!--/.section-header-->
-            <div class="section-content">
-                <div class="container">
-                <div class="row">
-                	<div class="col-md-12">
-                		<input type="email" name="email" class="input-email-newsletter">
-                		<button class="btn btn-default">Register</button>
-                	</div>
-                </div>
-                </div>
-                <!--/.container-->
-            </div>
-            <!--/.section-content-->
-        </section>
-        <footer id="footer">
-            <div class="container">
-                <div class="row">
-                    <?php
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<?php
 			$the_widget_args = array(
 				'before_widget' => '<div class="widget">',
 				'after_widget'  => '</div>',
@@ -58,53 +29,47 @@ if ( current_user_can( 'edit_theme_options' ) ) {
 				'after_title'   => '</h3></div>',
 			);
 			?>
-                        <div class="col-sm-3">
-                            <?php
+			<div class="col-sm-3">
+				<?php
 				if ( is_active_sidebar( 'footer-sidebar-1' ) ):
 					dynamic_sidebar( 'footer-sidebar-1' );
 				elseif ( current_user_can( 'edit_theme_options' ) ):
 					the_widget( 'WP_Widget_Text', 'title=' . __( 'Products', 'illdy' ) . '&text=<ul><li><a href="' . esc_url( '#' ) . '" title="' . __( 'Our work', 'illdy' ) . '">' . __( 'Our work', 'illdy' ) . '</a></li><li><a href="' . esc_url( '#' ) . '" title="' . __( 'Club', 'illdy' ) . '">' . __( 'Club', 'illdy' ) . '</a></li><li><a href="' . esc_url( '#' ) . '" title="' . __( 'News', 'illdy' ) . '">' . __( 'News', 'illdy' ) . '</a></li><li><a href="' . esc_url( '#' ) . '" title="' . __( 'Announcement', 'illdy' ) . '">' . __( 'Announcement', 'illdy' ) . '</a></li></ul>', $the_widget_args );
 				endif;
 				?>
-                        </div>
-                        <!--/.col-sm-3-->
-                        <div class="col-sm-3">
-                            <?php
+			</div><!--/.col-sm-3-->
+			<div class="col-sm-3">
+				<?php
 				if ( is_active_sidebar( 'footer-sidebar-2' ) ):
 					dynamic_sidebar( 'footer-sidebar-2' );
 				elseif ( current_user_can( 'edit_theme_options' ) ):
 					the_widget( 'WP_Widget_Text', 'title=' . __( 'Information', 'illdy' ) . '&text=<ul><li><a href="' . esc_url( '#' ) . '" title="' . __( 'Pricing', 'illdy' ) . '">' . __( 'Pricing', 'illdy' ) . '</a></li><li><a href="' . esc_url( '#' ) . '" title="' . __( 'Terms', 'illdy' ) . '">' . __( 'Terms', 'illdy' ) . '</a></li><li><a href="' . esc_url( '#' ) . '" title="' . __( 'Affiliates', 'illdy' ) . '">' . __( 'Affiliates', 'illdy' ) . '</a></li><li><a href="' . esc_url( '#' ) . '" title="' . __( 'Blog', 'illdy' ) . '">' . __( 'Blog', 'illdy' ) . '</a></li></ul>', $the_widget_args );
 				endif;
 				?>
-                        </div>
-                        <!--/.col-sm-3-->
-                        <div class="col-sm-3">
-                            <?php
+			</div><!--/.col-sm-3-->
+			<div class="col-sm-3">
+				<?php
 				if ( is_active_sidebar( 'footer-sidebar-3' ) ):
 					dynamic_sidebar( 'footer-sidebar-3' );
 				elseif ( current_user_can( 'edit_theme_options' ) ):
 					the_widget( 'WP_Widget_Text', 'title=' . __( 'Support', 'illdy' ) . '&text=<ul><li><a href="' . esc_url( '#' ) . '" title="' . __( 'Documentation', 'illdy' ) . '">' . __( 'Documentation', 'illdy' ) . '</a></li><li><a href="' . esc_url( '#' ) . '" title="' . __( 'FAQs', 'illdy' ) . '">' . __( 'FAQs', 'illdy' ) . '</a></li><li><a href="' . esc_url( '#' ) . '" title="' . __( 'Forums', 'illdy' ) . '">' . __( 'Forums', 'illdy' ) . '</a></li><li><a href="' . esc_url( '#' ) . '" title="' . __( 'Contact', 'illdy' ) . '">' . __( 'Contact', 'illdy' ) . '</a></li></ul>', $the_widget_args );
 				endif;
 				?>
-                        </div>
-                        <!--/.col-sm-3-->
-                        <div class="col-sm-3">
-                            <?php if ( $img_footer_logo ): ?>
-                            <a href="<?php echo esc_url( home_url() ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" class="footer-logo"><img src="<?php echo esc_url( $img_footer_logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" /></a>
-                            <?php endif; ?>
-                            <p class="copyright">
-                                <span data-customizer="copyright-credit"><?php printf( '%s <a href="%s" title="%s" target="_blank">%s</a>.', __( 'Theme:', 'illdy' ), esc_url( 'http://colorlib.com/wp/themes/illdy' ), __( 'Illdy', 'illdy' ), __( 'Illdy', 'illdy' ) ); ?></span>
-                            </p>
-                            <span><?php echo illdy_sanitize_html( $footer_copyright ); ?></span>
-                        </div>
-                        <!--/.col-sm-3-->
-                </div>
-                <!--/.row-->
-            </div>
-            <!--/.container-->
-        </footer>
-        <!--/#footer-->
-        <?php wp_footer(); ?>
-        </body>
-
-        </html>
+			</div><!--/.col-sm-3-->
+			<div class="col-sm-3">
+				<?php if ( $img_footer_logo ): ?>
+					<a href="<?php echo esc_url( home_url() ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" class="footer-logo"><img src="<?php echo esc_url( $img_footer_logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" /></a>
+				<?php endif; ?>
+				<?php if ( $display_copyright == 1 ): ?>
+					<p class="copyright">
+						<span data-customizer="copyright-credit"><?php printf( '%s <a href="%s" title="%s" target="_blank">%s</a>.', __( 'Theme:', 'illdy' ), esc_url( 'http://colorlib.com/wp/themes/illdy' ), __( 'Illdy', 'illdy' ), __( 'Illdy', 'illdy' ) ); ?></span>
+					</p>
+				<?php endif; ?>
+				<span><?php echo illdy_sanitize_html( $footer_copyright ); ?></span>
+			</div><!--/.col-sm-3-->
+		</div><!--/.row-->
+	</div><!--/.container-->
+</footer><!--/#footer-->
+<?php wp_footer(); ?>
+</body>
+</html>

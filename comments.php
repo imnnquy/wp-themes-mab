@@ -93,5 +93,5 @@ if ( post_password_required() ) {
 		$comment_textarea = '<div class="col-sm-12"><textarea placeholder="'. __( 'Message', 'illdy' ) .'" name="comment" aria-required="true"></textarea></div><!--/.col-sm-12--></div><!--/.row-->';
 	}
 	?>
-	<?php comment_form( array( 'fields' => $fields, 'comment_field' => $comment_textarea, 'id_submit' => 'input-submit', 'label_submit' => esc_attr__( 'Send', 'illdy' ), 'title_reply' => esc_attr__( 'Leave a comment', 'illdy' ), 'title_reply_to' => esc_attr__( 'Leave a comment to %s', 'illdy' ) ) ); ?>
+	<?php comment_form( array( 'fields' => $fields, 'comment_field' => $comment_textarea, 'id_submit' => 'input-submit', 'label_submit' => esc_attr__( 'Envoyer', 'illdy' ), 'title_reply' => esc_attr__( 'Laisser un commentaire', 'illdy' ), 'title_reply_to' => esc_attr__( 'Laisser un commentaire à %s', 'illdy' ) ) ); ?>
 </div><!--/#comments-->
