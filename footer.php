@@ -9,11 +9,9 @@
 <?php
 
 if ( current_user_can( 'edit_theme_options' ) ) {
-	$display_copyright = get_theme_mod( 'illdy_general_footer_display_copyright', 1 );
 	$footer_copyright  = get_theme_mod( 'illdy_footer_copyright', __( '&copy; Copyright 2016. All Rights Reserved.', 'illdy' ) );
 	$img_footer_logo   = get_theme_mod( 'illdy_img_footer_logo', esc_url( get_template_directory_uri() . '/layout/images/footer-logo.png' ) );
 } else {
-	$display_copyright = get_theme_mod( 'illdy_general_footer_display_copyright' );
 	$footer_copyright  = get_theme_mod( 'illdy_footer_copyright' );
 	$img_footer_logo   = get_theme_mod( 'illdy_img_footer_logo' );
 }
@@ -60,11 +58,9 @@ if ( current_user_can( 'edit_theme_options' ) ) {
 				<?php if ( $img_footer_logo ): ?>
 					<a href="<?php echo esc_url( home_url() ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" class="footer-logo"><img src="<?php echo esc_url( $img_footer_logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" /></a>
 				<?php endif; ?>
-				<?php if ( $display_copyright == 1 ): ?>
-					<p class="copyright">
-						<span data-customizer="copyright-credit"><?php printf( '%s <a href="%s" title="%s" target="_blank">%s</a>.', __( 'Theme:', 'illdy' ), esc_url( 'http://colorlib.com/wp/themes/illdy' ), __( 'Illdy', 'illdy' ), __( 'Illdy', 'illdy' ) ); ?></span>
-					</p>
-				<?php endif; ?>
+				<p class="copyright">
+					<span data-customizer="copyright-credit"><?php printf( '%s <a href="%s" title="%s" target="_blank">%s</a>.', __( 'Theme:', 'illdy' ), esc_url( 'http://colorlib.com/wp/themes/illdy' ), __( 'Illdy', 'illdy' ), __( 'Illdy', 'illdy' ) ); ?></span>
+				</p>
 				<span><?php echo illdy_sanitize_html( $footer_copyright ); ?></span>
 			</div><!--/.col-sm-3-->
 		</div><!--/.row-->

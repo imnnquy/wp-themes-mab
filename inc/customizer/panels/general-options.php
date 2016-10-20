@@ -148,20 +148,6 @@ $wp_customize->add_section( $prefix . '_general_footer_section', array(
 	'panel'       => $panel_id,
 ) );
 
-// Display theme copyright in the footer?
-$wp_customize->add_setting( $prefix . '_general_footer_display_copyright', array(
-	'sanitize_callback' => $prefix . '_sanitize_checkbox',
-	'default'           => 1,
-	'transport'         => 'postMessage',
-) );
-$wp_customize->add_control( $prefix . '_general_footer_display_copyright', array(
-	'type'        => 'checkbox',
-	'label'       => __( 'Enable link attribution in the footer?', 'illdy' ),
-	'description' => __( 'Unchecking this will remove the backlink to the theme creator\'s website', 'illdy' ),
-	'section'     => $prefix . '_general_footer_section',
-	'priority'    => 1,
-) );
-
 /* Footer Copyright */
 $wp_customize->add_setting( $prefix . '_footer_copyright', array(
 	'sanitize_callback' => 'illdy_sanitize_html',

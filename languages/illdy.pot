@@ -241,7 +241,7 @@ msgstr ""
 
 #: inc/components/related-posts/class.mt-related-posts.php:122
 msgid "Related Articles"
-msgstr "Dans le même catégorie"
+msgstr ""
 
 #: inc/customizer/custom-controls.php:40
 msgid "No contact forms found"
@@ -1149,7 +1149,7 @@ msgid "Coffes"
 msgstr ""
 
 #: sections/front-page-latest-news.php:65 template-parts/content.php:20
-msgid "Voir plus"
+msgid "Read more"
 msgstr ""
 
 #: sections/front-page-projects.php:46
