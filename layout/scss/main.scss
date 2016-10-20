@@ -116,7 +116,7 @@ input {
 			float: left;
 
 			&:hover {
-				color: #f1d204;
+				color: #ff00e0;
 				text-decoration: none;
 			}
 		}
@@ -193,7 +193,7 @@ input {
 									display: block;
 
 									&:hover {
-										color: #f1d204;
+										color: #ff00e0;
 									}
 
 									&:after {
@@ -646,7 +646,7 @@ input {
 				display: block;
 
 				&:hover {
-					color: #f1d204;
+					color: #ff00e0;
 					text-decoration: none;
 				}
 			}
@@ -662,7 +662,7 @@ input {
 				line-height: 1.388;
 				padding: 0 30px;
 				font-size: 18px;
-				color: #f1d204;
+				color: #ff00e0;
 				text-transform: uppercase;
 				@include transition(all 0.3s);
 
@@ -682,7 +682,7 @@ input {
 		width: auto;
 		height: 56px;
 		line-height: 56px;
-		background: #f1d204;
+		background: #ff00e0;
 		margin-bottom: 50px;
 		padding: 0 70px;
 		display: inline-block;
@@ -1154,9 +1154,9 @@ input {
 				a {
 					line-height: 1.5;
 					color: #888888;
-
+					
 					&:hover {
-						color: #f1d204;
+						color: #ff00e0;
 					}
 				}
 
@@ -1191,7 +1191,7 @@ input {
 
 			&:hover {
 				text-decoration: none;
-				color: #f1d204;
+				color: #ff00e0;
 			}
 		}
 
@@ -1219,11 +1219,11 @@ input {
 			font-size: 14px;
 
 			.post-meta-author {
-				color: #f1d204;
+				color: #ff00e0;
 
 				.fa {
 					margin-right: 6px;
-					color: #f1d204;
+					color: #ff00e0;
 				}
 			}
 
@@ -1233,7 +1233,7 @@ input {
 
 				.fa {
 					margin-right: 6px;
-					color: #f1d204;
+					color: #ff00e0;
 				}
 			}
 
@@ -1243,7 +1243,7 @@ input {
 
 				.fa {
 					margin-right: 6px;
-					color: #f1d204;
+					color: #ff00e0;
 				}
 
 				a {
@@ -1265,7 +1265,7 @@ input {
 		.blog-post-button {
 			height: 45px;
 			line-height: 45px;
-			background-color: #f1d204;
+			background-color: #ff00e0;
 			padding: 0 30px;
 			display: inline-block;
 			@include border-radius(3px);
@@ -1363,7 +1363,7 @@ input {
 				margin: 10px 0 0 0;
 				display: inline-block;
 				font-size: 20px;
-				color: #f1d204;
+				color: #ff00e0;
 			}
 
 			p {
@@ -1430,7 +1430,7 @@ input {
 			content: "";
 			width: 41px;
 			height: 3px;
-			background-color: #f1d204;
+			background-color: #ff00e0;
 			position: absolute;
 			bottom: 0;
 			left: 0;
@@ -1478,7 +1478,7 @@ input {
 			&:before {
 				content: "\f105";
 				font-family: "FontAwesome";
-				color: #f1d204;
+				color: #ff00e0;
 				position: absolute;
 				left: 0;
 			}
@@ -1489,7 +1489,7 @@ input {
 				@include transition(all 0.3s);
 
 				&:hover {
-					color: #f1d204;
+					color: #ff00e0;
 					text-decoration: none;
 				}
 			}
@@ -1670,7 +1670,7 @@ input {
 		.recent-post-button {
 			width: 100%;
 			line-height: 1.466;
-			color: #f1d204;
+			color: #ff00e0;
 			text-transform: lowercase;
 		}
 	}
@@ -1972,7 +1972,7 @@ input {
 		@include transition(all 0.3s);
 
 		&:hover .related-post-title {
-			color: #f1d204;
+			color: #ff00e0;
 			@include transition(all 0.3s);
 		}
 
@@ -2031,7 +2031,7 @@ input {
 				}
 
 				.url {
-					color: #f1d204;
+					color: #ff00e0;
 				}
 
 				.comment-entry {
@@ -2041,7 +2041,7 @@ input {
 				}
 
 				.comment-reply-link {
-					color: #f1d204;
+					color: #ff00e0;
 				}
 
 				ul.children {
@@ -2103,7 +2103,7 @@ input {
 			#input-submit {
 				width: auto;
 				height: 36px;
-				background-color: #f1d204;
+				background-color: #ff00e0;
 				padding: 0 40px;
 				display: inline-block;
 				color: #ffffff;

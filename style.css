@@ -51,3 +51,41 @@ Use it to make something cool, have fun, and share what you've learned with othe
     color: black;
     padding-top: 20px;
 }
+
+#newsletter-section {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 75px 0 85px 0;
+    text-align: center;
+}
+
+#newsletter-section .subscribe-button {
+    width: auto;
+    height: 56px;
+    line-height: 56px;
+    background: #ff00e0;
+    margin-bottom: 50px;
+    padding: 0 70px;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 18px;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.mab-email-input {
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.front-page-section .section-header p {
+	color: #000;
+	font-size: large;
+}
