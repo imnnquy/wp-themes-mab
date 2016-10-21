@@ -15,19 +15,19 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 .header-navigation ul {
-    background: gray;
+    background: rgb(132, 133, 133);
 }
 
 #header .top-header .header-navigation ul li a:hover {
-    color: #f740e7;
+    color: rgb(255, 26, 152);
 }
 
 #header .bottom-header .header-button-two:hover {
-    background: rgba(255, 0, 212, 0.9)
+    background: rgba(255, 26, 152, 0.9);
 }
 
 #header .bottom-header .header-button-two {
-    background: #e838ea;
+    background: rgb(229, 0, 126);
 }
 
 #header .bottom-header h2 {
@@ -35,7 +35,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 #header .bottom-header p {
-    color: #e838ea;
+    color: rgb(229, 0, 126);
     text-transform: uppercase;
     font-size: x-large;
 }
@@ -63,7 +63,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
     width: auto;
     height: 56px;
     line-height: 56px;
-    background: #ff00e0;
+    background: rgb(229, 0, 126);
     margin-bottom: 50px;
     padding: 0 70px;
     display: inline-block;

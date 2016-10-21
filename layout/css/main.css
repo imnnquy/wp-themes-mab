@@ -125,7 +125,7 @@ input {
 }
 
 #header .top-header .header-logo:hover {
-	color: #ff00e0;
+	color: rgb(229, 0, 126);
 	text-decoration: none;
 }
 
@@ -207,7 +207,7 @@ input {
 }
 
 #header .top-header .header-navigation ul li.menu-item-has-children .sub-menu li a:hover {
-	color: #ff00e0;
+	color: rgb(229, 0, 126);
 }
 
 #header .top-header .header-navigation ul li.menu-item-has-children .sub-menu li a:after {
@@ -291,7 +291,7 @@ input {
 	width: auto;
 	height: 63px;
 	line-height: 63px;
-	background: #ff00e0;
+	background: rgb(229, 0, 126);
 	margin: 0 15px;
 	padding: 0 70px;
 	display: inline-block;
@@ -682,7 +682,7 @@ input {
 }
 
 #latest-news .section-content .post .post-title:hover {
-	color: #ff00e0;
+	color: rgb(229, 0, 126);
 	text-decoration: none;
 }
 
@@ -697,7 +697,7 @@ input {
 	line-height: 1.388;
 	padding: 0 30px;
 	font-size: 18px;
-	color: #ff00e0;
+	color: rgb(229, 0, 126);
 	text-transform: uppercase;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -718,7 +718,7 @@ input {
 	width: auto;
 	height: 56px;
 	line-height: 56px;
-	background: #ff00e0;
+	background: rgb(229, 0, 126);
 	margin-bottom: 50px;
 	padding: 0 70px;
 	display: inline-block;
@@ -1219,7 +1219,7 @@ input {
 }
 
 #footer .widget ul li a:hover {
-	color: #ff00e0;
+	color: rgb(229, 0, 126);
 }
 
 #footer .widget ul li:before {
@@ -1255,7 +1255,7 @@ input {
 
 #blog .blog-post .blog-post-title:hover {
 	text-decoration: none;
-	color: #ff00e0;
+	color: rgb(229, 0, 126);
 }
 
 #blog .blog-post h2.blog-post-title:hover {
@@ -1282,12 +1282,12 @@ input {
 }
 
 #blog .blog-post .blog-post-meta .post-meta-author {
-	color: #ff00e0;
+	color: rgb(229, 0, 126);
 }
 
 #blog .blog-post .blog-post-meta .post-meta-author .fa {
 	margin-right: 6px;
-	color: #ff00e0;
+	color: rgb(229, 0, 126);
 }
 
 #blog .blog-post .blog-post-meta .post-meta-time,
@@ -1303,7 +1303,7 @@ input {
 #blog .blog-post .blog-post-meta .post-meta-time .fa,
 #blog .blog-post .blog-post-meta .post-meta-categories .fa {
 	margin-right: 6px;
-	color: #ff00e0;
+	color: rgb(229, 0, 126);
 }
 
 #blog .blog-post .blog-post-meta .post-meta-comments {
@@ -1313,7 +1313,7 @@ input {
 
 #blog .blog-post .blog-post-meta .post-meta-comments .fa {
 	margin-right: 6px;
-	color: #ff00e0;
+	color: rgb(229, 0, 126);
 }
 
 #blog .blog-post .blog-post-meta .post-meta-comments a {
@@ -1333,7 +1333,7 @@ input {
 #blog .blog-post .blog-post-button {
 	height: 45px;
 	line-height: 45px;
-	background-color: #ff00e0;
+	background-color: rgb(229, 0, 126);
 	padding: 0 30px;
 	display: inline-block;
 	border-radius: 3px;
@@ -1438,7 +1438,7 @@ input {
 	margin: 10px 0 0 0;
 	display: inline-block;
 	font-size: 20px;
-	color: #ff00e0;
+	color: rgb(229, 0, 126);
 }
 
 #blog .blog-post .blog-post-author p {
@@ -1506,7 +1506,7 @@ input {
 	content: "";
 	width: 41px;
 	height: 3px;
-	background-color: #ff00e0;
+	background-color: rgb(229, 0, 126);
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -1552,7 +1552,7 @@ input {
 .widget ul li:before {
 	content: "\f105";
 	font-family: "FontAwesome";
-	color: #ff00e0;
+	color: rgb(229, 0, 126);
 	position: absolute;
 	left: 0;
 }
@@ -1567,7 +1567,7 @@ input {
 }
 
 .widget ul li a:hover {
-	color: #ff00e0;
+	color: rgb(229, 0, 126);
 	text-decoration: none;
 }
 
@@ -1746,7 +1746,7 @@ input {
 .widget .widget-recent-post .recent-post-button {
 	width: 100%;
 	line-height: 1.466;
-	color: #ff00e0;
+	color: rgb(229, 0, 126);
 	text-transform: lowercase;
 }
 
@@ -2061,7 +2061,7 @@ input {
 }
 
 .blog-post-related-articles .related-post:hover .related-post-title {
-	color: #ff00e0;
+	color: rgb(229, 0, 126);
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -2128,7 +2128,7 @@ input {
 }
 
 #comments #comments-list ul.comments .comment .url {
-	color: #ff00e0;
+	color: rgb(229, 0, 126);
 }
 
 #comments #comments-list ul.comments .comment .comment-entry p {
@@ -2136,7 +2136,7 @@ input {
 }
 
 #comments #comments-list ul.comments .comment .comment-reply-link {
-	color: #ff00e0;
+	color: rgb(229, 0, 126);
 }
 
 #comments #comments-list ul.comments .comment ul.children {
@@ -2209,7 +2209,7 @@ input {
 input[type=submit] {
 	width: auto;
 	height: 36px;
-	background-color: #ff00e0;
+	background-color: rgb(229, 0, 126);
 	padding: 0 40px;
 	display: inline-block;
 	color: #fff;
