@@ -105,3 +105,7 @@ b, optgroup, strong {
 #un-design-soigne p {
 	text-align: center;
 }
+
+#un-design-soigne img {
+	max-width: 640px;
+}
