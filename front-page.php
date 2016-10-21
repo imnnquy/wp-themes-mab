@@ -81,7 +81,7 @@ else:
 
     /* SECTION ARTISAN POURQUOI REJOINDRE CE RESEAU */
 
-    $arrayPosts = array(44, 2, 11,40, 42);
+    $arrayPosts = array(44, 85, 2, 11,40, 42);
     foreach ($arrayPosts as $postId) {
         $currentPost = get_post($postId);
 

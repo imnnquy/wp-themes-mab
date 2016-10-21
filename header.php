@@ -19,7 +19,7 @@ $style = '';
 
 if ( get_option( 'show_on_front' ) == 'page' && is_front_page() ) {
 	if ( $jumbotron_general_image ) {
-		$style = 'background-image: url(' . esc_url( $jumbotron_general_image ) . ');';
+		$style = 'background-image: url(' . get_template_directory_uri() . '/layout/images/front-page/background.svg);';
 	}
 } else if ( ( is_single() || is_page() ) && $jumbotron_single_image == true ) {
 

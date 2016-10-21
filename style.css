@@ -22,6 +22,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
     color: rgb(255, 26, 152);
 }
 
+/*#header .top-header .header-navigation ul li a {
+	color: rgb(229, 0, 126);
+}*/
+
+.front-page-section .section-header h3 {
+	color: rgb(229, 0, 126);
+}
+
 #header .bottom-header .header-button-two:hover {
     background: rgba(255, 26, 152, 0.9);
 }
@@ -88,4 +96,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .front-page-section .section-header p {
 	color: #000;
 	font-size: large;
+}
+
+b, optgroup, strong {
+	color: rgb(229, 0, 126);
+}
+
+#un-design-soigne p {
+	text-align: center;
 }
