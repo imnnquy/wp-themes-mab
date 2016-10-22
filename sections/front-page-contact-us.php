@@ -56,7 +56,7 @@ if ( $general_title != '' || $general_entry != '' || $general_address_title != '
             <div class="mab-email-input">
             	<input type="email" name="email" placeholder="Email">
             </div>
-            <a href="#" title="Subscribe Newsletter" class="subscribe-button"><i class="fa fa-bell"></i>Subscribe Newsletter</a>
+            <a href="#" title="Subscribe Newsletter" class="subscribe-button"><i class="fa fa-bell"></i>Inscrivez-vous au newsletter</a>
             <div class="section-content">
                 <div class="container">
                     

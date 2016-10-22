@@ -143,6 +143,7 @@ strong {
 #newsletter-section .subscribe-button {
     width: 30%;
     min-width: 300px;
+    margin-top: 10px;
 }
 
 .footer-text {
