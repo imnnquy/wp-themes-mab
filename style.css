@@ -159,3 +159,11 @@ strong {
 .front-page-section {
     border-top: 1px solid beige;
 }
+
+.header-navigation {
+	display: none;
+}
+
+.page-id-38 .header-navigation {
+	display: block;
+}
