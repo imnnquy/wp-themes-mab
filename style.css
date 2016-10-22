@@ -29,6 +29,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 .front-page-section .section-header h3 {
     color: rgb(229, 0, 126);
+    line-height: 1.5;
 }
 
 #header .bottom-header .header-button-two:hover {
@@ -144,6 +145,15 @@ strong {
 }
 
 .footer-text {
-	font-size: x-large;
-	color: rgb(229, 0, 126);
+    font-size: x-large;
+    color: rgb(229, 0, 126);
+}
+
+#artisans,
+#avantages {
+    background-color: #ffffff;
+}
+
+.front-page-section {
+    border-top: 1px solid beige;
 }
