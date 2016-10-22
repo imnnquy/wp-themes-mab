@@ -22,12 +22,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
     color: rgb(255, 26, 152);
 }
 
+
 /*#header .top-header .header-navigation ul li a {
 	color: rgb(229, 0, 126);
 }*/
 
 .front-page-section .section-header h3 {
-	color: rgb(229, 0, 126);
+    color: rgb(229, 0, 126);
 }
 
 #header .bottom-header .header-button-two:hover {
@@ -94,33 +95,30 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 .front-page-section .section-header p {
-	color: #000;
-	font-size: large;
+    color: #000;
+    font-size: large;
 }
 
-b, optgroup, strong {
-	color: rgb(229, 0, 126);
+b,
+optgroup,
+strong {
+    color: rgb(229, 0, 126);
 }
 
 #un-design-soigne p {
-	text-align: center;
+    text-align: center;
 }
 
 #un-design-soigne img {
-	max-width: 640px;
+    max-width: 640px;
 }
 
 .alignright {
-	float: right;
+    float: right;
 }
 
 #abonnement .row {
-	margin-top: 20px;
-}
-
-#tarif .tarif-overlay {
-    width: 80%;
-    left: 10%;
+    margin-top: 20px;
 }
 
 #tarif .col-sm-3 {
@@ -129,4 +127,23 @@ b, optgroup, strong {
 
 #tarif .col-sm-3:last-child {
     border-right: none;
+}
+
+#contact-us-social {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#newsletter-section {
+    padding: 50px 0 0px 0;
+}
+
+#newsletter-section .subscribe-button {
+    width: 30%;
+    min-width: 300px;
+}
+
+.footer-text {
+	font-size: x-large;
+	color: rgb(229, 0, 126);
 }
