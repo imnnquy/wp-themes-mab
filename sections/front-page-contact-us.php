@@ -65,7 +65,7 @@ if ( $general_title != '' || $general_entry != '' || $general_address_title != '
             </div>
             <!--/.section-content-->
         </section>
-	<section id="tarif" class="front-page-section" style="background-image: url(/wp-content/uploads/2016/10/OB823N0.jpg);">
+	<section id="tarif" class="front-page-section">
 	    <div class="tarif-overlay"></div>
 	    <div class="container">
 	        <div class="row inline-columns">

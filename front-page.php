@@ -98,7 +98,7 @@ else:
                             </div><!--/.col-sm-12-->
                         </div><!--/.row-->
                         <?php if ($postId == 11) { ?>
-                <div id="tarif" class="front-page-section" style="background-image: url(/wp-content/uploads/2016/10/OB823N0.jpg);">
+                <div id="tarif" class="front-page-section">
                     <div class="tarif-overlay"></div>
                     <div class="container">
                         <div class="row inline-columns">
