@@ -109,3 +109,24 @@ b, optgroup, strong {
 #un-design-soigne img {
 	max-width: 640px;
 }
+
+.alignright {
+	float: right;
+}
+
+#abonnement .row {
+	margin-top: 20px;
+}
+
+#tarif .tarif-overlay {
+    width: 80%;
+    left: 10%;
+}
+
+#tarif .col-sm-3 {
+    border-right: 1px solid #fff;
+}
+
+#tarif .col-sm-3:last-child {
+    border-right: none;
+}

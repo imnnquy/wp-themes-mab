@@ -155,4 +155,36 @@ if ( $general_title != '' || $general_entry != '' || $general_address_title != '
 		</div><!--/.section-content-->
 	</section><!--/#contact-us.front-page-section-->
 
+	<section id="tarif" class="front-page-section" style="background-image: url(/wp-content/uploads/2016/10/OB823N0.jpg);">
+	    <div class="tarif-overlay"></div>
+	    <div class="container">
+	        <div class="row inline-columns">
+	            <div id="tarif_1" class="col-sm-3">
+	                <span class="description"><?php echo esc_html( $address1); ?></span>
+	            </div>
+	            <div id="tarif_2" class="col-sm-3">
+	                <span class="description"><?php echo esc_html( $phone ); ?></span>
+	            </div>
+	            <div id="tarif_3" class="col-sm-3">
+	                <span class="description"><?php echo esc_html( $email ); ?></span>
+	            </div>
+	        </div>
+	        <!--/.row-->
+	        
+	    </div>
+	    <div class="container">
+	    	<div class="row">
+	        	<a href="<?php echo esc_url( $contact_bar_facebook_url ); ?>" title="<?php _e( 'Facebook', 'illdy' ); ?>" target="_blank">
+	        		<img src="<?php echo get_template_directory_uri() ?>/layout/images/front-page/14.png">
+	        	</a>
+	        	<a href="<?php echo esc_url( $contact_bar_instagram_url ); ?>" title="<?php _e( 'Instagram', 'illdy' ); ?>" target="_blank">
+	        		<img src="<?php echo get_template_directory_uri() ?>/layout/images/front-page/16.png">
+	        	</a>
+	        </div>
+	        <div class="row">mesartisansbeaute</div>
+	    </div>
+	    <!--/.container-->
+	</section>
+
+
 <?php } ?>

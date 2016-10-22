@@ -97,17 +97,8 @@ else:
                                 <h3><?php echo $currentTitle; ?></h3>
                             </div><!--/.col-sm-12-->
                         </div><!--/.row-->
-                        <div class="row">
-                            <div class="col-sm-10 col-sm-offset-1">
-                                <?php echo $currentContent; ?>
-                            </div>
-                        </div>
-                    </div><!--/.container-->
-                </div><!--/.section-header-->
-            </section>
-
-            <?php if ($postId == 11) { ?>
-                <section id="tarif" class="front-page-section" style="background-image: url(/wp-content/uploads/2016/10/OB823N0.jpg);">
+                        <?php if ($postId == 11) { ?>
+                <div id="tarif" class="front-page-section" style="background-image: url(/wp-content/uploads/2016/10/OB823N0.jpg);">
                     <div class="tarif-overlay"></div>
                     <div class="container">
                         <div class="row inline-columns">
@@ -121,8 +112,16 @@ else:
                             </div>
                         </div><!--/.row-->
                     </div><!--/.container-->
-                </section>
+                </div>
             <?php } ?>
+                        <div class="row">
+                            <div class="col-sm-10 col-sm-offset-1">
+                                <?php echo $currentContent; ?>
+                            </div>
+                        </div>
+                    </div><!--/.container-->
+                </div><!--/.section-header-->
+            </section>
 
 
 
