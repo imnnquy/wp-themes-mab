@@ -23,4 +23,10 @@ if ( current_user_can( 'edit_theme_options' ) ) {
         <?php wp_footer(); ?>
         </body>
 
+        <script>
+        	// jQuery(document).ready(function ($) {
+			    jQuery('img').removeAttr('width').removeAttr('height');
+			// });
+        </script>
+
         </html>

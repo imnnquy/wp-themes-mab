@@ -112,6 +112,7 @@ strong {
 
 #un-design-soigne img {
     max-width: 640px;
+    min-width: 300px;
 }
 
 .alignright {
