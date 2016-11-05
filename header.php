@@ -52,12 +52,13 @@ if ( ( is_single() || is_page() || is_archive() ) && get_theme_mod( 'illdy_archi
 <?php if ( $preloader_enable == 1 ): ?>
 	<div class="pace-overlay"></div>
 <?php endif; ?>
+
 <header id="header" class="<?php if ( get_option( 'show_on_front' ) == 'page' && is_front_page() ): echo 'header-front-page';
 else: echo 'header-blog'; endif; ?>" style="<?php echo $style ?>">
 	<div class="top-header">
-		<div class="container">
+		<div class="container top-header-fixed">
 			<div class="row">
-<!-- 				<div class="col-sm-2 col-xs-8">
+ 				<div class="col-sm-2 col-xs-8 logo-container">
 
 					<?php if ( ! empty( $logo_image ) ) { ?>
 						<?php echo '<a href="' . esc_url( home_url() ) . '"><img src="' . esc_url( $logo_image[0] ) . '" /></a>'; ?>
@@ -69,10 +70,10 @@ else: echo 'header-blog'; endif; ?>" style="<?php echo $style ?>">
 						<?php } ?>
 					<?php } ?>
 
-				</div> --><!--/.col-sm-2-->
-				<div class="col-sm-12 col-xs-4">
+				</div><!--/.col-sm-2-->
+				<div class="col-sm-10 col-xs-4">
 					<nav class="header-navigation">
-						<ul class="clearfix">
+						<ul class="clearfix" style="margin-top: 14px;">
 							<?php
 							wp_nav_menu( array(
 								'theme_location'  => 'primary-menu',
