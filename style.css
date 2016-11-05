@@ -200,4 +200,5 @@ strong {
 
 .top-header .header-navigation ul li {
     text-transform: none;
+    line-height: 2.5;
 }
