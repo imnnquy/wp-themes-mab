@@ -270,16 +270,17 @@ input {
 	margin: 0 15px;
 	padding: 0 70px;
 	display: inline-block;
-	border: 3px solid #fff;
 	border-radius: 3px;
 	font-weight: 700;
 	font-size: 18px;
-	color: #fff;
 	text-transform: uppercase;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
+
+	border: 3px solid rgb(229, 0, 126);
+	color: rgb(229, 0, 126);
 }
 
 #header .bottom-header .header-button-one:hover {
@@ -2282,6 +2283,8 @@ input[type=submit] {
 	#header .bottom-header .header-button-two {
 		margin-top: 10px;
 		margin-bottom: 10px;
+		border: 3px solid rgb(229, 0, 126);
+		color: rgb(229, 0, 126);
 	}
 }
 

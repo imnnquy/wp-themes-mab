@@ -226,7 +226,7 @@ input {
 
 		&.blog {
 			padding: 130px 0;
-			
+
 			p {
 				margin-bottom: 0;
 			}
@@ -260,11 +260,11 @@ input {
 			margin: 0 15px;
 			padding: 0 70px;
 			display: inline-block;
-			border: 3px solid #ffffff;
+			border: 3px solid rgb(229, 0, 126);
+			color: rgb(229, 0, 126);
 			@include border-radius(3px);
 			font-weight: 700;
 			font-size: 18px;
-			color: #ffffff;
 			text-transform: uppercase;
 			@include transition(all 0.3s);
 
@@ -1053,7 +1053,7 @@ input {
 					&:-ms-input-placeholder {
 					  color: #ffffff;
 					}
-					
+
 					&:-moz-placeholder {
 					  color: #ffffff;
 					}
@@ -1154,7 +1154,7 @@ input {
 				a {
 					line-height: 1.5;
 					color: #888888;
-					
+
 					&:hover {
 						color: rgb(229, 0, 126);
 					}

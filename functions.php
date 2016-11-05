@@ -337,6 +337,17 @@ if ( ! function_exists( 'illdy_widgets' ) ) {
 			'after_title'   => '',
 		) );
 
+		// Newsletter Sidebar
+		register_sidebar( array(
+			'name'          => __( 'Front page - Newsletter Sidebar', 'illdy' ),
+			'id'            => 'front-page-email-subscribe-sidebar',
+			'description'   => __( 'The widgets added in this sidebar will appear in newsletter section from front page.', 'illdy' ),
+			'before_widget' => '<div id="%1$s" class="col-sm-4 col-sm-offset-4 %2$s">',
+			'after_widget'  => '</div>',
+			'before_title'  => '',
+			'after_title'   => '',
+		) );
+
 		// Team Sidebar
 		register_sidebar( array(
 			'name'          => __( 'Front page - Team Sidebar', 'illdy' ),

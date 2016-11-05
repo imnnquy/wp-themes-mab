@@ -78,7 +78,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
     padding: 0 70px;
     display: inline-block;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 16px;
     color: #f7f7f7;
     text-transform: uppercase;
     border-radius: 3px;
@@ -137,7 +137,8 @@ strong {
 }
 
 #newsletter-section {
-    padding: 50px 0 0px 0;
+    padding: 50px 0;
+    text-align: center;
 }
 
 #newsletter-section .subscribe-button {

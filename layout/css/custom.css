@@ -146,6 +146,9 @@
 		width: 100%;
 		margin: 10px 0;
 		padding: 0;
+
+		border: 3px solid rgb(229, 0, 126);
+		color: rgb(229, 0, 126);
 	}
 
 	#header .bottom-header .header-button-two {
