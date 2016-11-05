@@ -38,6 +38,7 @@ if ( $first_row_from_title || $second_row_from_title || $third_row_from_title ||
 							<img class="mab-logo" src="<?php echo get_template_directory_uri(); ?>/layout/images/front-page/logo.png">
 						</a>
 						<div class="mab-first-title"><span>Prestation d'exception à la carte</span></div>
+                        <div class="mab-seccond-title"><span>Coiffure, esthétique, onglerie et maquillage</span></div>
                     </div>
                     <!--/.col-sm-12-->
                     <div class="col-sm-8 col-sm-offset-2">

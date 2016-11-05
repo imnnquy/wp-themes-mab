@@ -36,6 +36,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 #header .bottom-header .header-button-two {
     background: rgb(229, 0, 126);
+    box-shadow: 4px 4px 5px #888888;
 }
 
 #header .bottom-header h2 {
@@ -45,7 +46,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 #header .bottom-header p {
     color: rgb(229, 0, 126);
     text-transform: uppercase;
-    font-size: x-large;
+    font-size: 33px;
 }
 
 .mab-logo {
@@ -55,7 +56,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 .mab-first-title {
     text-transform: uppercase;
-    font-size: x-large;
+    font-size: 26px;
     color: black;
     padding-top: 20px;
 }
@@ -177,9 +178,26 @@ strong {
     padding-bottom: 4px;
     background: white;
     box-shadow: 2px 2px 5px #888888;
+    position: fixed;
+    z-index: 99999;
 }
 
 .logo-container {
     display: flex;
     justify-content: center;
+}
+
+.mab-seccond-title {
+    color: black;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 600px) {
+    .top-header {
+        position: absolute;
+    }
+}
+
+.top-header .header-navigation ul li {
+    text-transform: none;
 }
